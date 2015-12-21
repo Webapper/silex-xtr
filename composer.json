@@ -1,0 +1,26 @@
+{
+  "name": "webapper/silex-xtr",
+  "type": "library",
+  "description": "XTR provides an extensible router service on the top of Silex routing, and it's a replacement of Webapper SIR",
+  "keywords": ["silex", "route", "routing", "router"],
+  "homepage": "https://github.com/Webapper/silex-xtr",
+  "license": "WTFPL",
+  "authors": [
+	{
+	  "name": "Csaba Dobai (Assarte)",
+	  "email": "be.creative@webapper.hu"
+	}
+  ],
+  "require": {
+	"php": ">=5.4.0",
+	"webapper/d3i": "~1.0"
+  },
+  "autoload": {
+	"psr-4": { "Webapper\\Xtr\\": "src/Xtr" }
+  },
+  "extra": {
+	"branch-alias": {
+	  "dev-master": "1.0.x-dev"
+	}
+  }
+}
