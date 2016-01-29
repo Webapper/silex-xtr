@@ -94,6 +94,8 @@ class XtrService extends D3I {
 			})->mutate($config)->share();
 		}
 
+		$input['routes'] = [];
+
 		// creating request from globals
 		$this->request = Request::createFromGlobals();
 
